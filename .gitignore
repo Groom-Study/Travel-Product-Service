@@ -1,3 +1,5 @@
-FE/
-BE/
-instagram-mockup/
+.env
+node_modules/
+mini-project/
+intagram-mockup/
+youtube-mockup/
