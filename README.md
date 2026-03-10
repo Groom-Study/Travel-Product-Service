@@ -1,9 +1,9 @@
 # ✈️ Goorm Trip: 세계 여행 상품 커머스 서비스
 
-![Main Screenshot 1](<img width="1908" height="946" alt="스크린샷 2026-03-10 141818" src="https://github.com/user-attachments/assets/694e121c-1575-4d22-a4c7-92a13689857a" />
-)
-![Main Screenshot 2](<img width="882" height="821" alt="스크린샷 2026-03-10 141843" src="https://github.com/user-attachments/assets/3b1f9d3f-8c9b-419e-bcb0-d20532386a5a" />
-)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/694e121c-1575-4d22-a4c7-92a13689857a" width="48%" />
+  <img src="https://github.com/user-attachments/assets/3b1f9d3f-8c9b-419e-bcb0-d20532386a5a" width="48%" />
+</p>
 
 > **React**와 **AWS Lambda**를 연동하여 구현한 실시간 여행 상품 검색 및 필터링 커머스 서비스입니다.  
 > 단순한 프론트엔드 구현을 넘어, 클라우드 서버리스 아키텍처를 연동한 **Full-Stack 연결**에 집중했습니다.
@@ -38,8 +38,6 @@
 
 ## 🏗 프로젝트 아키텍처
 
-
-
 ```plaintext
 사용자 브라우저 (React) <---> API Gateway <---> AWS Lambda (Node.js)
        ^                                            |
@@ -47,18 +45,17 @@
     S3 호스팅                                  상품 데이터(JSON)
 
 
-
 ---
 
 ## 💡 기술적 도전 및 성장 포인트 (TIL)
 
-* **CORS 에러 해결 및 네트워크 보안 이해**: 브라우저에서 발생하는 `No 'Access-Control-Allow-Origin'` 에러를 해결하기 위해 AWS API Gateway의 CORS 구성과 Lambda 응답 헤더 설정을 직접 조율했습니다. 이 과정에서 프론트엔드와 백엔드 간의 보안 규약 및 HTTP 통신 구조를 깊이 있게 학습했습니다.
+* **CORS 에러 해결 및 네트워크 보안 이해** 브라우저에서 발생하는 `No 'Access-Control-Allow-Origin'` 에러를 해결하기 위해 **AWS API Gateway의 CORS 구성**과 **Lambda 응답 헤더 설정**을 직접 조율했습니다. 이 과정에서 프론트엔드와 백엔드 간의 보안 규약 및 HTTP 통신 구조를 깊이 있게 학습했습니다.
 
-* **Serverless Cloud Infrastructure 경험**: AWS의 **S3(정적 웹 호스팅)**, **Lambda(서버리스 함수)**, **API Gateway(REST API)**를 유기적으로 연결하여 인프라를 직접 구축했습니다. 이를 통해 클라우드 기반의 서비스 배포 프로세스와 서버 유지보수 비용 최적화의 이점을 경험했습니다.
+* **Serverless Cloud Infrastructure 경험** AWS의 **S3(정적 웹 호스팅)**, **Lambda(서버리스 함수)**, **API Gateway(REST API)**를 유기적으로 연결하여 인프라를 직접 구축했습니다. 이를 통해 클라우드 서버리스 기반의 배포 프로세스와 인프라 유지보수 비용 최적화의 이점을 경험했습니다.
 
-* **복합 상태를 활용한 데이터 필터링 로직**: `searchTerm`(검색어)과 `category`(카테고리)라는 두 가지 독립적인 상태(State)를 조합하여 실시간으로 결과물을 도출하는 필터링 로직을 구현했습니다. 데이터가 바뀔 때마다 복잡한 계산을 수행하는 대신, 선언적인 함수형 프로그래밍 방식을 사용하여 코드의 가독성과 유지보수성을 높였습니다.
+* **복합 상태를 활용한 데이터 필터링 로직** `searchTerm`(검색어)과 `category`(카테고리)라는 두 가지 독립적인 상태(State)를 조합하여 실시간으로 결과물을 도출하는 필터링 로직을 구현했습니다. 선언적인 함수형 프로그래밍 방식을 사용하여 코드의 가독성과 유지보수성을 높였습니다.
 
 ---
 
 ### 🚀 배포 주소
-바로가기: [Goorm Trip 서비스 웹사이트](http://goorm-trip-service.s3-website.ap-northeast-2.amazonaws.com)
+**Live Demo**: [Goorm Trip 서비스 바로가기](http://goorm-trip-service.s3-website.ap-northeast-2.amazonaws.com)
