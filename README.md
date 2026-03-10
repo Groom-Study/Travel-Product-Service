@@ -24,7 +24,7 @@ React와 Context API를 활용하여 여행 상품을 판매하는 커머스 웹
 ## 📄 프로젝트 상세 문서
 > 아래 링크를 클릭하면 상세 설계 문서를 확인하실 수 있습니다.
 
-* [🏗 서비스 아키텍처 설계 문서 (ARCHITECTURE.md)](../yoonsang/docs/ARCHITECTURE.md)
-* [📑 API 기능 명세서 (API_SPEC.md)](../yoonsang/docs/API_SPEC.md)
+* [🏗 서비스 아키텍처 설계 문서 (ARCHITECTURE.md)]([../yoonsang/docs/ARCHITECTURE.md](https://github.com/Groom-Study/Travel-Product-Service/blob/yoonsang/docs/ARCHITECTURE.md))
+* [📑 API 기능 명세서 (API_SPEC.md)]([../yoonsang/docs/API_SPEC.md](https://github.com/Groom-Study/Travel-Product-Service/blob/yoonsang/docs/API_SPEC.md))
   
 ---
