@@ -1,0 +1,12 @@
+[
+  { "id": 1, "title": "오스트리아 할슈타트 호수 마을 투어", "price": 1250000, "category": "유럽", "image": "오스트리아 할 슈 타트.jpg" },
+  { "id": 2, "title": "나미비아 나미브 사막 샌딩 보딩", "price": 2100000, "category": "아프리카", "image": "나미브사막.jpg" },
+  { "id": 3, "title": "서울 도심 시티투어 버스 패스", "price": 25000, "category": "아시아", "image": "서울.jpg" },
+  { "id": 4, "title": "독일 베를린 브란덴부르크문 역사산책", "price": 850000, "category": "유럽", "image": "베를린 브란덴브루크 문.jpg" },
+  { "id": 5, "title": "요세미티 국립공원 2박 3일 캠핑", "price": 1100000, "category": "북미", "image": "켈리포니아 요세미티 국립공원.jpg" },
+  { "id": 6, "title": "캐나다 록키산맥 트레킹 일주", "price": 1550000, "category": "북미", "image": "록키산맥.jpg" },
+  { "id": 7, "title": "미국 그랜드캐니언 경비행기 투어", "price": 450000, "category": "북미", "image": "그랜드캐니언.jpg" },
+  { "id": 8, "title": "런던 세인트폴 대성당 입장", "price": 450000, "category": "유럽", "image": "세인트폴 대성당.jpg" },
+  { "id": 9, "title": "일본 후지산 당일치기 온천 여행", "price": 150000, "category": "아시아", "image": "일본 후지산.jpg" },
+  { "id": 10, "title": "스페인 마드리드 프라도 미술관가이드", "price": 950000, "category": "유럽", "image": "마드리드.jpg" }
+]
