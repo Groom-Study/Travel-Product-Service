@@ -38,7 +38,7 @@
     "price": 85000,
     "image": "https://example.com/images/disney.jpg"
   }
-]
+]**```
 
 ---
 
