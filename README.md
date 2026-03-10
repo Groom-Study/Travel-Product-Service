@@ -46,15 +46,12 @@
 
 ---
 
-## 💡 기술적 도전 및 성장 포인트 (TIL)
+💡 기술적 도전 및 성장 포인트 (TIL)
+CORS 에러 해결 및 네트워크 보안 이해 브라우저에서 발생하는 No 'Access-Control-Allow-Origin' 에러를 해결하기 위해 AWS API Gateway 구성과 Lambda 응답 헤더를 조율하며 HTTP 보안 통신 구조를 학습했습니다.
 
-* **CORS 에러 해결 및 네트워크 보안 이해** 브라우저에서 발생하는 `No 'Access-Control-Allow-Origin'` 에러를 해결하기 위해 **AWS API Gateway의 CORS 구성**과 **Lambda 응답 헤더 설정**을 직접 조율했습니다. 이 과정에서 프론트엔드와 백엔드 간의 보안 규약 및 HTTP 통신 구조를 깊이 있게 학습했습니다.
+Serverless Cloud Infrastructure 경험 S3, Lambda, API Gateway를 유기적으로 연결하여 클라우드 기반의 서버리스 서비스 배포 프로세스를 경험하고 인프라 최적화의 이점을 이해했습니다.
 
-* **Serverless Cloud Infrastructure 경험** AWS의 **S3(정적 웹 호스팅)**, **Lambda(서버리스 함수)**, **API Gateway(REST API)**를 유기적으로 연결하여 인프라를 직접 구축했습니다. 이를 통해 클라우드 서버리스 기반의 배포 프로세스와 인프라 유지보수 비용 최적화의 이점을 경험했습니다.
+복합 상태를 활용한 데이터 필터링 로직 searchTerm과 category 상태를 조합하여 실시간으로 결과를 도출하는 필터링 로직을 구현했습니다. 선언적 프로그래밍 방식을 사용하여 유지보수성을 높였습니다.
 
-* **복합 상태를 활용한 데이터 필터링 로직** `searchTerm`(검색어)과 `category`(카테고리)라는 두 가지 독립적인 상태(State)를 조합하여 실시간으로 결과물을 도출하는 필터링 로직을 구현했습니다. 선언적인 함수형 프로그래밍 방식을 사용하여 코드의 가독성과 유지보수성을 높였습니다.
-
----
-
-### 🚀 배포 주소
-**Live Demo**: [Goorm Trip 서비스 바로가기](http://goorm-trip-service.s3-website.ap-northeast-2.amazonaws.com)
+🚀 배포 주소
+Live Demo: Goorm Trip 서비스 바로가기
