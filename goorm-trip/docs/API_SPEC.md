@@ -14,7 +14,7 @@
 
 #### 🛠 요청 상세 (Request Details)
 * **Method**: `GET`
-* **Endpoint**: `/products` (또는 설정하신 해당 경로)
+* **Endpoint**: `/products`
 * **Description**: 클라이언트에서 서버로 데이터를 요청할 때 사용하는 방식입니다.
 
 ### [GET] 여행 상품 목록 조회
