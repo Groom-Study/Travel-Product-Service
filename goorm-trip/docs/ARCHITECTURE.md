@@ -24,6 +24,9 @@
 ---
 
 ## 3. 구성 요소 역할
+
+
+```plaintext
 - Frontend (S3): React 빌드 파일을 호스팅하며, 사용자에게 UI를 제공합니다.
 
 - API Gateway: 클라이언트의 HTTP 요청을 수신하여 적절한 Lambda 함수로 라우팅하고, CORS 헤더를 관리합니다.
