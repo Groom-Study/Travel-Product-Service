@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProductImage from './ProductImage'; 
-import { useCart } from '../context/CartContext'; // 1. 전역 상태 훅 가져오기
+import { useCart } from '../context/CartContext';
 
 const Card = styled.div`
   border: 1px solid #ddd;
@@ -15,10 +15,8 @@ const Card = styled.div`
 `;
 
 const ProductCard = ({ product }) => {
-  // 2. 장바구니 담기 함수 꺼내기
   const { addToCart } = useCart();
 
-  // 3. public 폴더 내 assets 경로 (process.env.PUBLIC_URL 추가가 안전합니다)
   const imagePath = `${process.env.PUBLIC_URL}/assets/${product.image}`;
 
   return (
