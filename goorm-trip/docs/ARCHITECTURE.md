@@ -1,9 +1,15 @@
-🏗 서비스 아키텍처 설계 문서 (Service Architecture Design)
+# 🏗 서비스 아키텍처 설계 문서 (Service Architecture Design)
 
-1. 시스템 개요
-본 서비스는 인프라 관리의 부담을 줄이고 비용 효율성을 극대화하기 위해 서버리스(Serverless) 아키텍처를 채택했습니다. 정적 자원은 S3를 통해 호스팅되며, 동적 데이터 처리는 API Gateway와 Lambda가 담당합니다.
+## 1. 시스템 개요
+본 서비스는 인프라 관리의 부담을 줄이고 비용 효율성을 극대화하기 위해 **서버리스(Serverless)** 아키텍처를 채택했습니다. 정적 자원은 S3를 통해 호스팅되며, 동적 데이터 처리는 API Gateway와 Lambda가 담당합니다.
 
-2. 아키텍처 다이어그램
+---
+
+## 2. 아키텍처 다이어그램
+
+
+
+```plaintext
 [ Client Side ]          [ Cloud Infrastructure (AWS) ]
 +---------------+        +------------------------------------------+
 |  Web Browser  | <----> |  Amazon API Gateway (REST API Endpoint)  |
