@@ -32,5 +32,3 @@
 |   Amazon S3   |        |        AWS Lambda (Node.js 18.x)         |
 | (Static Host) |        |   - Data Filtering & JSON Response       |
 +---------------+        +------------------------------------------+
-
----
