@@ -10,7 +10,7 @@ export const CartProvider = ({ children }) => {
   // 장바구니 추가 함수
   const addToCart = (product) => {
     setCartItems((prev) => {
-      // 이미 담긴 상품인지 확인 (중복 방지 선택 사항)
+      // 이미 담긴 상품인지 확인
       const isExist = prev.find((item) => item.id === product.id);
       if (isExist) {
         alert("이미 장바구니에 담긴 상품입니다.");
