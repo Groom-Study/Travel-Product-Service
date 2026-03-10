@@ -1,6 +1,9 @@
 # ✈️ Goorm Trip: 세계 여행 상품 커머스 서비스
 
-![Main Screenshot](c:\Users\배윤상\Desktop\스크린샷 2026-03-10 141818.png,c:\Users\배윤상\Desktop\스크린샷 2026-03-10 141843.png)
+![Main Screenshot 1](<img width="1908" height="946" alt="스크린샷 2026-03-10 141818" src="https://github.com/user-attachments/assets/694e121c-1575-4d22-a4c7-92a13689857a" />
+)
+![Main Screenshot 2](<img width="882" height="821" alt="스크린샷 2026-03-10 141843" src="https://github.com/user-attachments/assets/3b1f9d3f-8c9b-419e-bcb0-d20532386a5a" />
+)
 
 > **React**와 **AWS Lambda**를 연동하여 구현한 실시간 여행 상품 검색 및 필터링 커머스 서비스입니다.  
 > 단순한 프론트엔드 구현을 넘어, 클라우드 서버리스 아키텍처를 연동한 **Full-Stack 연결**에 집중했습니다.
@@ -44,6 +47,7 @@
     S3 호스팅                                  상품 데이터(JSON)
 
 
+
 ---
 
 ## 💡 기술적 도전 및 성장 포인트 (TIL)
@@ -57,4 +61,4 @@
 ---
 
 ### 🚀 배포 주소
-[여기에 본인의 S3 엔드포인트 주소를 입력하세요](http://goorm-trip-service.s3-website.ap-northeast-2.amazonaws.com)
+바로가기: [Goorm Trip 서비스 웹사이트](http://goorm-trip-service.s3-website.ap-northeast-2.amazonaws.com)
