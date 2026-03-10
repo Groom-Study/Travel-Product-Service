@@ -40,4 +40,8 @@
   }
 ]
 
-3. 에러 대응 (Error Handling)상태 코드의미원인403 Forbidden권한 없음API Gateway의 CORS 설정 미비 또는 인증 실패404 Not Found경로 오류잘못된 API 엔드포인트 호출500 Internal Error서버 오류Lambda 코드 실행 중 런타임 에러 발생
+3. 에러 대응 (Error Handling)
+상태 코드 / 의미 / 원인
+403 Forbidden / 권한 없음 /API Gateway의 CORS 설정 미비 또는 인증 실패
+404 Not Found / 경로 오류 / 잘못된 API 엔드포인트 호출
+500 Internal Server Error / 서버 오류 / Lambda 코드 실행 중 런타임 에러 발생
