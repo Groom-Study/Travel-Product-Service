@@ -29,14 +29,14 @@
     "name": "에펠탑 투어",
     "category": "유럽",
     "price": 150000,
-    "image": "[https://example.com/images/eiffel.jpg](https://example.com/images/eiffel.jpg)"
+    "image": "https://example.com/images/eiffel.jpg"
   },
   {
     "id": 2,
     "name": "도쿄 디즈니랜드",
     "category": "아시아",
     "price": 85000,
-    "image": "[https://example.com/images/disney.jpg](https://example.com/images/disney.jpg)"
+    "image": "https://example.com/images/disney.jpg"
   }
 ]
 
