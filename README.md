@@ -28,3 +28,19 @@ React와 Context API를 활용하여 여행 상품을 판매하는 커머스 웹
 * [📑 API 기능 명세서 (API_SPEC.md)](https://github.com/Groom-Study/Travel-Product-Service/blob/yoonsang/goorm-trip/docs/API_SPEC.md)
   
 ---
+
+```mermaid
+graph LR
+    User((사용자))
+
+    subgraph AWS_Cloud [AWS Cloud]
+        S3[AWS S3<br/>Static Hosting<br/>React + Styled Components]
+        APIGW[AWS API Gateway]
+        Lambda[AWS Lambda<br/>Node.js Backend]
+    end
+
+    User -->|웹 접속| S3
+    User -->|API 요청| APIGW
+    APIGW -->|이벤트 트리거| Lambda
+```
+
