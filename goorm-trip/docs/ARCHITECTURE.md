@@ -5,7 +5,19 @@
 
 ---
 
-## 2. 아키텍처 다이어그램
+## 2. 구성 요소 역할
+
+
+- Frontend (S3): React 빌드 파일을 호스팅하며, 사용자에게 UI를 제공합니다.
+
+- API Gateway: 클라이언트의 HTTP 요청을 수신하여 적절한 Lambda 함수로 라우팅하고, CORS 헤더를 관리합니다.
+
+- Backend (Lambda): 비즈니스 로직을 수행합니다. 내장된 여행 상품 JSON 데이터를 필터링하여 클라이언트에 응답합니다.
+
+---
+
+
+## 3. 아키텍처 다이어그램
 
 
 
@@ -20,17 +32,5 @@
 |   Amazon S3   |        |        AWS Lambda (Node.js 18.x)         |
 | (Static Host) |        |   - Data Filtering & JSON Response       |
 +---------------+        +------------------------------------------+
-
----
-
-## 3. 구성 요소 역할
-
-
-```plaintext
-- Frontend (S3): React 빌드 파일을 호스팅하며, 사용자에게 UI를 제공합니다.
-
-- API Gateway: 클라이언트의 HTTP 요청을 수신하여 적절한 Lambda 함수로 라우팅하고, CORS 헤더를 관리합니다.
-
-- Backend (Lambda): 비즈니스 로직을 수행합니다. 내장된 여행 상품 JSON 데이터를 필터링하여 클라이언트에 응답합니다.
 
 ---
