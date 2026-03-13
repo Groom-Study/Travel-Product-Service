@@ -16,7 +16,6 @@ React와 Context API를 활용하여 여행 상품을 판매하는 커머스 웹
 | 이름 | 담당 미션 | 작업 브랜치 (Link) | 상태 |
 | :--- | :--- | :--- | :--- |
 | **배윤상** | 여행 상품 서비스 제작 | [yoonsang](https://github.com/Groom-Study/Travel-Product-Service/tree/yoonsang) | ✅ 완료 |
-| **지연우** | 여행 상품 서비스 제작 |  |  |
 | **엄효선** | 여행 상품 서비스 제작 | [hsyeom](https://github.com/Groom-Study/Travel-Product-Service/tree/hsyeom) | ✅ 완료 |
 
 ---
